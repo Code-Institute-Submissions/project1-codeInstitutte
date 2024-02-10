@@ -1,0 +1,55 @@
+.container {
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom: 50px;
+}
+
+.book {
+    display: flex;
+    gap: 25px;
+}
+
+header + footer {
+    margin-top: 0;
+}
+
+.book h3 {
+    margin-top: 0;
+}
+
+div img {
+    width: 25%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.book p {
+    margin-right: 25px;
+}
+
+hr {
+    width: 60%;
+    margin: 20px;
+    margin-left: 35%;
+}
+
+/* #id */
+
+@media (max-width: 768px) {
+    .book {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        text-align: center;
+        justify-content: center;
+    }
+    .book img {
+        margin: auto;
+        width: 50%;
+    }
+
+    .book p {
+        text-align: justify;
+        width: 100%;
+    }
+}
