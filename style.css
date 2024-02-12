@@ -92,14 +92,14 @@ footer p {
     padding: 0 10% 3% 10%;
     position: relative;
     z-index: 99;
-}
-
-#about-us {
     display: flex;
     gap: 50px;
     position: relative;
     z-index: 99;
+    
 }
+
+
 
 #about-us img {
     width: auto;
@@ -114,13 +114,16 @@ footer p {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    
 }
+
+
+
+/* FOOTER */
 
 #homePage + footer {
     margin-top: 0;
 }
-
-/* FOOTER */
 footer {
     height: 33%;
     margin-top: 50px;
@@ -230,8 +233,8 @@ footer #contact-us {
     transition: 0.3s;
 }
 
-@media (max-width: 630px) {
-    article {
+@media (max-width: 768px) {
+    main {
         text-align: center;
     }
     .section1 {
@@ -244,6 +247,27 @@ footer #contact-us {
     #project-book {
         margin-bottom: 15px;
     }
+
+    #about-us {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        text-align: center;
+    }
+
+    #about-us img {
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+    
 
     footer {
         display: flex;
