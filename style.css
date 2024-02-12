@@ -77,13 +77,6 @@ h3 {
     text-align: center;
 }
 
-footer p {
-    color: #a3c9aa;
-    margin-top: 15px;
-    display: block;
-    padding-bottom: 15px;
-}
-
 /* main */
 
 #about-us {
@@ -96,10 +89,7 @@ footer p {
     gap: 50px;
     position: relative;
     z-index: 99;
-    
 }
-
-
 
 #about-us img {
     width: auto;
@@ -114,10 +104,7 @@ footer p {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    
 }
-
-
 
 /* FOOTER */
 
@@ -156,6 +143,9 @@ footer a {
 footer p {
     color: silver;
     text-transform: uppercase;
+    margin-top: 15px;
+    display: block;
+    padding-bottom: 15px;
 }
 
 footer .sign-form {
@@ -259,7 +249,6 @@ footer #contact-us {
 
     #about-us img {
         margin: auto;
-        
     }
 
     footer {
@@ -268,7 +257,6 @@ footer #contact-us {
     }
 }
 
-    
 @media (max-width: 426px) {
     main {
         text-align: center;
@@ -304,6 +292,3 @@ footer #contact-us {
         flex-direction: column;
     }
 }
-
-    
-
