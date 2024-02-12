@@ -7,7 +7,7 @@
 body {
     min-height: 100vh;
 }
-
+/* HEADER */
 header {
     background-color: #373e5b;
     color: aliceblue;
@@ -25,7 +25,6 @@ nav a {
     text-decoration: none;
 }
 
-/* HEADER */
 header h1,
 header img {
     padding: 10px;
@@ -39,24 +38,6 @@ header h1 {
     margin: 20px 0;
 }
 
-h2 {
-    margin: 25px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-h3::before {
-    content: ' « ';
-}
-
-h3::after {
-    content: ' » ';
-}
-
-h3 {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-}
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -73,12 +54,28 @@ nav {
     background-color: #844b3a;
 }
 
+/* main */
+h2 {
+    margin: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
 h3 {
     text-align: center;
 }
 
-/* main */
+h3::before {
+    content: ' « ';
+}
 
+h3::after {
+    content: ' » ';
+}
+
+h3 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
 #about-us {
     background-color: rgb(244, 244, 241);
     margin-top: 50px;
@@ -141,11 +138,11 @@ footer a {
 }
 
 footer p {
-    color: silver;
-    text-transform: uppercase;
+    color: #a3c9aa;
     margin-top: 15px;
     display: block;
     padding-bottom: 15px;
+    text-transform: uppercase;
 }
 
 footer .sign-form {
@@ -244,11 +241,11 @@ footer #contact-us {
 
         justify-content: center;
         text-align: center;
-        padding-bottom: 25px;
     }
 
     #about-us img {
         margin: auto;
+        margin-bottom: 20px;
     }
 
     footer {
@@ -257,7 +254,7 @@ footer #contact-us {
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 425px) {
     main {
         text-align: center;
     }
@@ -273,22 +270,36 @@ footer #contact-us {
     }
 
     #about-us {
+        height: 33%;
         display: flex;
         flex-direction: column;
 
         justify-content: center;
         text-align: center;
-        padding-bottom: 25px;
+        padding-bottom: 0;
     }
 
     #about-us img {
-        width: 90%;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
+    }
+
+    .right > p {
+        padding-top: 150px;
     }
 
     footer {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 376px) {
+    .right > p {
+        padding-top: 0px;
+    }
+
+    .right ol {
+        padding-bottom: 20px;
     }
 }
