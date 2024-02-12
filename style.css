@@ -269,6 +269,41 @@ footer #contact-us {
 }
 
     
+@media (max-width: 425px) {
+    main {
+        text-align: center;
+    }
+    .section1 {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+    }
+    #project-book {
+        margin-bottom: 15px;
+    }
+
+    #about-us {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    #about-us img {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 150px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
     
 
