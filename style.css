@@ -254,11 +254,12 @@ footer #contact-us {
 
         justify-content: center;
         text-align: center;
+        padding-bottom: 0;
     }
 
     #about-us img {
         margin: auto;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     footer {
@@ -269,8 +270,5 @@ footer #contact-us {
 
     
 
-    footer {
-        display: flex;
-        flex-direction: column;
-    }
-}
+    
+
