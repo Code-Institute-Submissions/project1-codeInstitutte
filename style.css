@@ -39,15 +39,6 @@ header h1 {
     margin: 20px 0;
 }
 
-header hr{    
-            
-    width: 40px;
-    height: 1px;
-    margin: 15px auto;
-    background-color: #999999;
-
-}
-
 h2 {
     margin: 25px;
     text-transform: uppercase;
@@ -93,7 +84,7 @@ footer p {
     padding-bottom: 15px;
 }
 
-/* article */
+/* main */
 
 #about-us {
     background-color: rgb(244, 244, 241);
@@ -103,10 +94,26 @@ footer p {
     z-index: 99;
 }
 
-#about-us hr {
-    border-top: 1px solid #f27405;
-    width: 20%;
-    margin: 30px auto;
+#about-us {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    z-index: 99;
+}
+
+#about-us img {
+    width: auto;
+    max-height: 200px;
+
+    margin-left: 90px;
+}
+
+#about-us p {
+    width: auto;
+    height: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #homePage + footer {
@@ -194,7 +201,14 @@ footer #contact-us {
 .section1 h3 {
     color: aliceblue;
 }
-
+.separator {
+    display: block;
+    padding-bottom: 1px;
+    width: 40px;
+    height: 1px;
+    margin: 15px auto;
+    background-color: #999999;
+}
 
 /* #id */
 
