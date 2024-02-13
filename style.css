@@ -78,38 +78,11 @@ h3 {
     text-align: center;
     color: white;
 }
-#about-us {
-    background-color: rgb(244, 244, 241);
-    margin-top: 50px;
-    padding: 0 10% 3% 10%;
-    position: relative;
-    z-index: 99;
-    display: flex;
-    gap: 50px;
-    position: relative;
-    z-index: 99;
-}
 
-#about-us img {
-    width: auto;
-    max-height: 200px;
-
-    margin-left: 90px;
-}
-
-#about-us p {
-    width: auto;
-    height: 50%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
 
 /* FOOTER */
 
-#homePage + footer {
-    margin-top: 0;
-}
+
 footer {
     height: 33%;
     margin-top: 50px;
@@ -176,83 +149,15 @@ footer #contact-us {
     align-self: center;
 }
 
-/* class */
 
-.section1 {
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-}
-
-.section1 span {
-    color: white;
-}
-
-.section1 a {
-    text-decoration: none;
-}
-.section1 img {
-    width: 300px;
-    height: 350px;
-    border-radius: 10px 10px 0 0;
-}
-
-.separator {
-    display: block;
-    padding-bottom: 1px;
-    width: 40px;
-    height: 1px;
-    margin: 15px auto;
-    background-color: #999999;
-}
-
-/* #id */
-
-#project-book,
-#project-movie {
-    background-color: #373e5b;
-
-    border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-        0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-        0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
-}
-
-#project-book:hover,
-#project-movie:hover {
-    box-shadow: 0.5rem 0.5rem rgb(94, 93, 93);
-    transition: 0.3s;
-}
 
 @media (max-width: 768px) {
     main {
         text-align: center;
     }
-    .section1 {
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        width: 300px;
-    }
-    #project-book {
-        margin-bottom: 15px;
-    }
+    
 
-    #about-us {
-        display: flex;
-        flex-direction: column;
-
-        justify-content: center;
-        text-align: center;
-        padding-bottom: 25px;
-    }
-
-    #about-us img {
-        margin: auto;
-    }
+    
 
     footer {
         display: flex;
@@ -264,32 +169,7 @@ footer #contact-us {
     main {
         text-align: center;
     }
-    .section1 {
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        width: 300px;
-    }
-    #project-book {
-        margin-bottom: 15px;
-    }
-
-    #about-us {
-        display: flex;
-        flex-direction: column;
-
-        justify-content: center;
-        text-align: center;
-        padding-bottom: 25px;
-    }
-
-    #about-us img {
-        width: 90%;
-        margin: auto;
-        margin-bottom: 30px;
-    }
-
+    
     footer {
         display: flex;
         flex-direction: column;
@@ -318,4 +198,5 @@ footer #contact-us {
         margin: 0;
         align-self: center;
     }
+    
 }

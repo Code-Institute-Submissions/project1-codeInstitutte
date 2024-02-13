@@ -1,3 +1,7 @@
+header{
+    text-align: center;
+}
+
 .container {
     text-align: center;
     border: 1px solid black;
@@ -9,12 +13,14 @@
     gap: 25px;
 }
 
-header + footer {
-    margin-top: 0;
-}
+
 
 .book h3 {
     margin-top: 0;
+}
+
+div{
+    margin-bottom: 10px;
 }
 
 div img {
@@ -28,9 +34,9 @@ div img {
 }
 
 hr {
-    width: 60%;
-    margin: 20px;
-    margin-left: 35%;
+    width: 40%;
+    margin: auto;
+       
 }
 
 /* #id */
@@ -53,3 +59,4 @@ hr {
         width: 100%;
     }
 }
+
