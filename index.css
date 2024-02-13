@@ -1,3 +1,8 @@
+hr {
+    width: 25%;
+    margin: auto;
+}
+
 #about-us {
     background-color: rgb(244, 244, 241);
     margin-top: 50px;
@@ -30,7 +35,6 @@
 #homePage + footer {
     margin-top: 0;
 }
-
 
 /* class */
 
@@ -83,7 +87,6 @@
 }
 
 @media (max-width: 768px) {
-   
     .section1 {
         display: inline-flex;
         flex-direction: column;
@@ -107,12 +110,9 @@
     #about-us img {
         margin: auto;
     }
-
-   
 }
 
 @media (max-width: 426px) {
-    
     .section1 {
         display: inline-flex;
         flex-direction: column;
@@ -140,6 +140,8 @@
     }
 }
 
-
-    
-
+@media (min-width: 1025px) {
+    hr {
+        display: none;
+    }
+}

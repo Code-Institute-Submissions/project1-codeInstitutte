@@ -1,4 +1,4 @@
-header{
+header {
     text-align: center;
     margin-bottom: 25px;
 }
@@ -6,7 +6,6 @@ header{
 .container {
     text-align: center;
     padding-bottom: 50px;
-    
 }
 
 .book {
@@ -14,13 +13,11 @@ header{
     gap: 25px;
 }
 
-
-
 .book h3 {
     margin-top: 0;
 }
 
-div{
+div {
     margin-bottom: 10px;
 }
 
@@ -36,9 +33,12 @@ div img {
 }
 
 hr {
-    width: 40%;
-    margin: auto;
-       
+    width: 25%;
+    margin-left: calc(47.5% + 55px);
+
+    border: 1px solid black;
+    opacity: 0.7;
+    margin-bottom: 15px;
 }
 
 /* #id */
@@ -61,4 +61,3 @@ hr {
         width: 100%;
     }
 }
-

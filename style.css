@@ -58,11 +58,6 @@ ul li {
     color: silver;
 }
 
-hr {
-    width: 25%;
-    margin: auto;
-}
-
 /* main */
 h3::before {
     content: ' « ';
@@ -79,9 +74,7 @@ h3 {
     color: white;
 }
 
-
 /* FOOTER */
-
 
 footer {
     height: 33%;
@@ -149,15 +142,10 @@ footer #contact-us {
     align-self: center;
 }
 
-
-
 @media (max-width: 768px) {
     main {
         text-align: center;
     }
-    
-
-    
 
     footer {
         display: flex;
@@ -169,7 +157,7 @@ footer #contact-us {
     main {
         text-align: center;
     }
-    
+
     footer {
         display: flex;
         flex-direction: column;
@@ -183,10 +171,6 @@ footer #contact-us {
         text-align: center;
     }
 
-    hr {
-        display: none;
-    }
-
     header h1 {
         width: 50%;
         align-self: center;
@@ -198,5 +182,4 @@ footer #contact-us {
         margin: 0;
         align-self: center;
     }
-    
 }
