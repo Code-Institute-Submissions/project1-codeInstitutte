@@ -1,3 +1,11 @@
+.hero-image {
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 90%;
+}
+
 hr {
     width: 25%;
     margin: auto;
@@ -44,6 +52,7 @@ hr {
     justify-content: space-evenly;
 }
 
+.section1 h3,
 .section1 span {
     color: white;
 }
