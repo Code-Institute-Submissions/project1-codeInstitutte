@@ -104,6 +104,10 @@ footer {
     text-align: center;
 }
 
+footer #contact-us {
+    text-align: center;
+}
+
 footer .copyright {
     padding: 20px;
     color: #a3c9aa;
