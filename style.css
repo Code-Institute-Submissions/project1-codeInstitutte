@@ -109,13 +109,9 @@ footer .copyright {
     color: #a3c9aa;
 }
 
-footer section {
-    flex: 1 0 auto;
-}
 
-footer #contact-us {
-    text-align: center;
-}
+
+
 
 footer a {
     color: beige;
@@ -131,42 +127,13 @@ footer h4 {
     padding-bottom: 15px;
 }
 
-footer .sign-form {
-    margin-bottom: 10px;
-    width: 33%;
-}
 
-footer label {
-    display: block;
-    margin-bottom: -10px;
-    color: silver;
-}
 
-footer h2 {
-    color: #a3c9aa;
-}
 
-input[type='submit'] {
-    display: inline-block;
-    font-weight: 400;
 
-    text-align: center;
-    vertical-align: middle;
-    color: #fff;
-    background-color: #be5325;
 
-    border: 1px solid transparent;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
 
-footer #contact-us {
-    align-self: center;
-}
+
 
 @media (max-width: 768px) {
     main {
