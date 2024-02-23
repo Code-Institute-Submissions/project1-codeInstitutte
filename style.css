@@ -19,6 +19,7 @@ nav a {
     font-style: normal;
 }
 .heading {
+    
     background-color: #373e5b;
     color: aliceblue;
     text-align: center;
@@ -43,6 +44,7 @@ header img {
 }
 
 header nav {
+    
     margin-bottom: 20px;
     background-color: #844b3a;
 }
@@ -53,10 +55,12 @@ header h1 {
 
 .hero-image {
     text-align: center;
+    
+
 }
 
 .hero-image img {
-    max-width: 80%;
+    max-width: 50%;
 }
 
 h2 {
@@ -92,10 +96,13 @@ h3 {
     text-align: center;
 }
 
+.heading, footer{
+    height:  25%
+}
 /* FOOTER */
 
 footer {
-    height: 33%;
+    
     margin-top: 50px;
     background-color: #844b3a;
     padding: 1em;
@@ -140,6 +147,8 @@ footer h4 {
 
 
 @media (max-width: 768px) {
+
+   
     main {
         text-align: center;
     }
