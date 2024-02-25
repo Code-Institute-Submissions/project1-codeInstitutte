@@ -1,46 +1,3 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
-}
-
-
-
-
-/* #id */
-
-#sign-up{
-    text-align: center;
-}
-/* 
-footer */
-footer #contact-us {
-    text-align: center;
-}
-
-footer .sign-form {
-    margin-bottom: 10px;
-    width: 33%;
-}
-
-
-footer label {
-    display: block;
-    margin-bottom: -10px;
-    color: silver;
-}
-
-footer h2 {
-    color: #a3c9aa;
-}
 
 input[type='submit'] {
 
@@ -62,9 +19,6 @@ input[type='submit'] {
         border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-footer #contact-us {
-    align-self: center;
-}
 
 
 
