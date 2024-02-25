@@ -13,6 +13,7 @@ header {
     margin: 0 auto; /* Assurez-vous qu'il n'y a pas de marge latérale */
     padding: 0; /* Assurez-vous que le padding est réinitialisé ou contrôlé */
     min-width: 0;
+    
 }
 h1,
 h2,
@@ -149,7 +150,16 @@ footer h4 {
 
 
 
+@media screen and (max-width:320px) {
+    header h1{
+        padding:4px 0;
+    }
 
+    .heading > img{
+        width: 70px;
+        height: 70px;
+    }
+}
 
 
 @media (max-width: 768px) {
@@ -163,6 +173,7 @@ footer h4 {
         display: flex;
         flex-direction: column;
     }
+   
 }
 
 @media (max-width: 426px) {
@@ -176,8 +187,30 @@ footer h4 {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    header h1 {
+        margin-bottom: 0px;
+    }
+
+    header nav {
+    
+        margin-bottom: 0px;
+        
+    }
+
+    #about-us{
+        margin-top: 20px;
+    }
+
+    footer {
+        padding: 49px 16px;
+        
+    }
+}
+
 @media (min-width: 1025px) {
     .heading {
+        height: 157px;
         display: flex;
         justify-content: space-around;
         text-align: center;
@@ -194,4 +227,10 @@ footer h4 {
         margin: 0;
         align-self: center;
     }
+    
+    header img{
+        
+        align-self: center;
+    }
+   
 }
