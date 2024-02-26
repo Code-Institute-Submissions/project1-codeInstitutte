@@ -39,9 +39,7 @@ A modern web browser
 Installation
 This project does not require any special installation. You can clone the Git repository and open the HTML files in your browser.
 
-![tablet (1)](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/3305f3f6-800f-46aa-a760-f71ce4e71125)
-
-![review-laptop (1)](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/943cecd6-fbfc-44a8-b65c-848c711bb12c)
+![screencapture-book](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/a6f002b1-7f28-4a46-91f5-243df60febd7)
 
 
 
