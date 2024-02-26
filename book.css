@@ -22,7 +22,7 @@ div {
 
 div img {
     width: 25%;
-    margin: 15px;
+    margin: 5px;
 }
 
 .book p {
@@ -40,7 +40,7 @@ div hr {
 
 
 
-/* #id */
+
 
 @media (max-width: 768px) {
     .book {
@@ -58,5 +58,12 @@ div hr {
     .book p {
         text-align: justify;
         width: 100%;
+    }
+}
+
+@media (min-width:375px) {
+    div img {
+        
+        margin: 15px;
     }
 }
