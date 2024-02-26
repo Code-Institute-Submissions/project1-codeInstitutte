@@ -1,203 +1,41 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    min-height: 100vh;
-    background-color: #f1f1f1;
-}
-
-header {
-    margin: 0 auto; /* Assurez-vous qu'il n'y a pas de marge latérale */
-    padding: 0; /* Assurez-vous que le padding est réinitialisé ou contrôlé */
-    min-width: 0;
-    
-}
-h1,
-h2,
-h3,
-h4,
-nav a {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-.heading {
-    
-    background-color: #373e5b;
-    color: aliceblue;
+.container {
     text-align: center;
+    padding-bottom: 50px;
 }
 
-.heading > img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
-header a {
-    color: aliceblue;
-    text-decoration: none;
-}
-
-/* HEADER */
-
-
-header img {
-    padding: 10px;
-}
-
-header nav {
-    
-    margin-bottom: 20px;
-    background-color: #844b3a;
-}
-
-header h1 {
-    margin-bottom: 20px;
-}
-
-.hero-image {
-    text-align: center;
-    
-
-}
-
-.hero-image img {
-    max-width: 50%;
-    margin-bottom: 25px;
-}
-
-h2 {
-    margin: 25px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-ul li {
-    display: inline-block;
-    padding: 20px;
-    text-transform: uppercase;
-    color: silver;
-}
-
-/* main */
-h3::before {
-    content: ' « ';
-}
-
-h3::after {
-    content: ' » ';
-}
-
-h3 {
-    margin: 15px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.heading, footer{
-    height:  25%
-}
-/* FOOTER */
-
-footer {
-    
-    margin-top: 50px;
-    background-color: #844b3a;
-    padding: 1em;
+.book {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
+    gap: 25px;
 }
 
-footer #contact-us {
-    text-align: center;
+.book :nth-child(1) {
+    margin-top: 2rem;
 }
 
-footer .copyright {
-    padding: 20px;
-    color: #a3c9aa;
+.book h3 {
+    margin-top: 0;
 }
 
-
-
-
-
-footer a {
-    color: beige;
-    text-decoration: none;
-    padding: 0 15px;
+div {
+    margin-bottom: 10px;
 }
 
-footer h4 {
-    color: silver;
-    text-transform: uppercase;
-    margin-top: 15px;
-    display: block;
-    padding-bottom: 15px;
+div img {
+    width: 25%;
+    margin: 5px;
 }
 
-@media (min-width: 1025px) {
-    .heading {
-        height: 157px;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-    }
-
-    .heading > a {
-        width: 50%;
-        align-self: center;
-    }
-
-    header nav {
-        background-color: transparent;
-        width: 50%;
-        margin: 0;
-        align-self: center;
-    }
-    
-    header img{
-        
-        align-self: center;
-    }
-   
+.book p {
+    margin-right: 25px;
 }
 
-@media screen and (max-width: 1024px) {
-    header h1{
-        margin: 9px 0;
-        padding-top: 1px;
-        
-    }
+div hr {
+    width: 25%;
+    margin-left: calc(47.5% + 55px);
 
-    header img {
-        margin: 5px 0;
-
-    }
-
-    header nav {
-    
-        margin-bottom: 0px;
-        
-    }
-
-    #about-us{
-        margin-top: 20px;
-    }
-
-    footer {
-        padding: 49px 16px;
-        
-    }
+    border: 1px solid black;
+    opacity: 0.7;
+    margin-bottom: 15px;
 }
 
 
@@ -205,42 +43,27 @@ footer h4 {
 
 
 @media (max-width: 768px) {
-    
-   
-    main {
-        text-align: center;
-    }
-
-    footer {
+    .book {
         display: flex;
         flex-direction: column;
-    }
-   
-}
-
-@media (max-width: 425px) {
-    main {
+        margin: 15px;
         text-align: center;
+        justify-content: center;
+    }
+    .book img {
+        margin: auto;
+        width: 50%;
     }
 
-    footer {
-        display: flex;
-        flex-direction: column;
+    .book p {
+        text-align: justify;
+        width: 100%;
     }
-
-    
 }
 
-@media screen and (max-width:320px) {
-    header h1{
-        padding:0;
+@media (min-width:375px) {
+    div img {
         
-    }
-
-    .heading > img{
-        width: 70px;
-        height: 70px;
-        margin: 0;
+        margin: 15px;
     }
 }
-
