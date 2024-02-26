@@ -1,7 +1,8 @@
 # project1-codeInstitutte
 
 
-![laptopL](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/13a5caae-a130-43e9-a45c-278e407eda09)
+![readme-amiresponsive](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/e6322d69-d22d-4332-ba26-780cdd7fb549)
+
 
 
 ## About The Project
