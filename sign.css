@@ -1,3 +1,6 @@
+
+
+
 .container {
     text-align: center;
 }
@@ -40,5 +43,23 @@ padding: 0.5rem;
     textarea {
         width: 100%;
         height: auto;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        padding: 30PX;
+        flex:1 0 auto;
+        
+
+    }
+
+    footer{
+        margin:0
     }
 }
