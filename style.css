@@ -47,9 +47,7 @@ header nav {
     background-color: #844b3a;
 }
 
-header h1 {
-    margin: 20px 0;
-}
+
 
 .hero-image {
     text-align: center;
@@ -206,6 +204,8 @@ width: 70%;
         width: 50%;
         align-self: center;
     }
+
+    
 
     header nav {
         background-color: transparent;
