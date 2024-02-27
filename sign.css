@@ -1,4 +1,10 @@
+.container {
+    text-align: center;
+}
 
+.hero-image img{
+    width: 7rem;
+}
 input[type='submit'] {
 
     margin-top: 20px;
@@ -23,6 +29,10 @@ input[type='submit'] {
 #sign-up label{
     display: inline-block;
     padding: 10px 0;
+}
+
+#sign-up input,#sign-up textarea{
+padding: 0.5rem;
 }
 
 
