@@ -168,30 +168,6 @@ footer #contact-us {
     align-self: center;
 }
 
-@media (min-width: 1025px) {
-    .heading {
-        height: 157px;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-    }
-
-    .heading > a {
-        width: 50%;
-        align-self: center;
-    }
-
-    header nav {
-        background-color: transparent;
-        width: 50%;
-        margin: 0;
-        align-self: center;
-    }
-
-    .heading img{
-        align-self: center;
-    }
-}
 @media (max-width: 768px) {
     main {
         text-align: center;
@@ -214,4 +190,22 @@ footer #contact-us {
     }
 }
 
+@media (min-width: 1025px) {
+    .heading {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
 
+    .heading > a {
+        width: 50%;
+        align-self: center;
+    }
+
+    header nav {
+        background-color: transparent;
+        width: 50%;
+        margin: 0;
+        align-self: center;
+    }
+}
