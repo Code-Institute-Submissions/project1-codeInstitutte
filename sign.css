@@ -35,13 +35,14 @@ input[type='submit'] {
 }
 
 #sign-up input,#sign-up textarea{
+max-width: calc(90% - 1rem);
 padding: 0.5rem;
 }
 
 
 @media screen and (max-width:375px) {
     textarea {
-        width: 100%;
+        max-width: calc(90% - 1rem);
         height: auto;
     }
 }
