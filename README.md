@@ -1,12 +1,9 @@
 # project1-codeInstitutte
 
-
-![readme-amiresponsive](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/e6322d69-d22d-4332-ba26-780cdd7fb549)
-
-
-
 ## About The Project
 "The Review" is an online platform dedicated to cultural criticism, focusing primarily on books and movies. Our goal is to provide a space where users can discover, share, and discuss reviews on a variety of cultural works. By emphasizing intuitive navigation and a pleasant user experience, we hope to foster active participation from our community.
+
+![readme-amiresponsive](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/e6322d69-d22d-4332-ba26-780cdd7fb549)
 
 ## Objectives
 
