@@ -1,115 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="./style.css" type="text/css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="./sign.css" type="text/css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-        <link rel="icon" type="image/png" href="./favicon.png" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Caveat&family=Crete+Round&family=Dancing+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville&family=Roboto&display=swap"
-            rel="stylesheet"
-        />
-        <title>The Review</title>
-    </head>
+    <link rel="stylesheet" href="./src/styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="./src/styles/sign.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Crete+Round&family=Dancing+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville&family=Roboto&display=swap"
+        rel="stylesheet" />
+    <title>The Review</title>
+</head>
 
-    <body>
-        <header>
-            <div class="heading">
-                <a href="index.html">
-                    <h1>The Review</h1>
-                </a>
+<body>
+    <header>
+        <div class="heading">
+            <a href="index.html">
+                <h1>The Review</h1>
+            </a>
 
-                <img src="./logo.jpg" alt="logo" />
-                <nav>
-                    <ul>
-                        <li><a href="./index.html">About</a></li>
-                        <li><a href="#footer">contact</a></li>
-                        <li><a href="#footer">sign up</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <div class="container">
-            <h2>Contact</h2>
-            <div class="hero-image">
-                <img src="./form.png" alt="hero-image" />
-            </div>
-
-            <section id="sign-up">
-                <form
-                    action="https://formdump.codeinstitute.net/"
-                    method="post"
-                >
-                    <label for="name">Full Name</label><br />
-                    <input
-                        class="sign-form"
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                    /><br />
-
-                    <label for="email">Email</label><br />
-                    <input
-                        class="sign-form"
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                    /><br />
-                    <label for="review">Review:</label><br />
-                    <textarea
-                        class="sign-form"
-                        id="revieww"
-                        name="review"
-                        rows="4"
-                        cols="50"
-                    >
-At Review.com you will receive all information about movies and books that make noise...</textarea
-                    ><br />
-                    <input type="submit" value="Submit" /><br />
-                </form>
-            </section>
+            <img src="./src/medias/logo.jpg" alt="logo" />
+            <nav>
+                <ul>
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="#footer">contact</a></li>
+                    <li><a href="#footer">sign up</a></li>
+                </ul>
+            </nav>
         </div>
-        <footer id="footer">
-            <section id="contact-us">
-                <h4>Find us on:</h4>
+    </header>
+    <div class="container">
+        <h2>Contact</h2>
+        <div class="hero-image">
+            <img src="./src/medias/form.png" alt="hero-image" />
+        </div>
 
-                <a
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="Find us on Facebook (link opens in a new tab)"
-                    ><i class="fa-brands fa-facebook"></i> Facebook</a
-                >
-                <a
-                    href="https://www.instagram.com"
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="Find us on Instagram (link opens in a new tab)"
-                    ><i class="fa-brands fa-instagram"></i> Instagram</a
-                >
-                <a
-                    href="https://www.twitter.com"
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="Find us on Twitter (link opens in a new tab)"
-                    ><i class="fa-brands fa-twitter"></i> Twitter</a
-                >
-                <div class="copyright">
-                    <p>Copyright © The Review 2024</p>
-                </div>
-            </section>
-        </footer>
-        <script
-            src="https://kit.fontawesome.com/d89ffbeb14.js"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+        <section id="sign-up">
+            <form action="https://formdump.codeinstitute.net/" method="post">
+                <label for="name">Full Name</label><br />
+                <input class="sign-form" type="text" id="name" name="name" required /><br />
+
+                <label for="email">Email</label><br />
+                <input class="sign-form" type="email" id="email" name="email" required /><br />
+                <label for="review">Review:</label><br />
+                <textarea class="sign-form" id="revieww" name="review" rows="4" cols="50">
+At Review.com you will receive all information about movies and books that make noise...</textarea><br />
+                <input type="submit" value="Submit" /><br />
+            </form>
+        </section>
+    </div>
+    <footer id="footer">
+        <section id="contact-us">
+            <h4>Find us on:</h4>
+
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                aria-label="Find us on Facebook (link opens in a new tab)"><i class="fa-brands fa-facebook"></i>
+                Facebook</a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                aria-label="Find us on Instagram (link opens in a new tab)"><i class="fa-brands fa-instagram"></i>
+                Instagram</a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                aria-label="Find us on Twitter (link opens in a new tab)"><i class="fa-brands fa-twitter"></i>
+                Twitter</a>
+            <div class="copyright">
+                <p>Copyright © The Review 2024</p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://kit.fontawesome.com/d89ffbeb14.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
