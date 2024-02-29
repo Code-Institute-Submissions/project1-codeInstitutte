@@ -39,6 +39,7 @@ This project does not require any special installation. You can clone the Git re
 ![screencapture-book](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/a6f002b1-7f28-4a46-91f5-243df60febd7)
 
 
+## Validator testing
 
-
+https://pagespeed.web.dev/analysis/https-badralioui-github-io-project1-codeInstitutte/972finf5bv?form_factor=desktop
 
