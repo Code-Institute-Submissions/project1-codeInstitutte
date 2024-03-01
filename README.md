@@ -69,5 +69,3 @@ This project does not require any special installation. You can clone the Git re
 
 
 
-https://pagespeed.web.dev/analysis/https-badralioui-github-io-project1-codeInstitutte/972finf5bv?form_factor=desktop
-
