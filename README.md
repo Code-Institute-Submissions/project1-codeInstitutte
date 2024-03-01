@@ -41,5 +41,14 @@ This project does not require any special installation. You can clone the Git re
 
 ## Validator testing
 
+# HTML
+
+-index.html: Document checking completed. No errors or warnings to show.
+-book-cover.html: Document checking completed. No errors or warnings to show.
+
+
+
+
+
 https://pagespeed.web.dev/analysis/https-badralioui-github-io-project1-codeInstitutte/972finf5bv?form_factor=desktop
 
