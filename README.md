@@ -45,6 +45,9 @@ This project does not require any special installation. You can clone the Git re
 
 -index.html: Document checking completed. No errors or warnings to show.
 -book-cover.html: Document checking completed. No errors or warnings to show.
+-movie-cover.html: Document checking completed. No errors or warnings to show.
+
+
 
 
 
