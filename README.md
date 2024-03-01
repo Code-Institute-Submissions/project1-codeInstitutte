@@ -65,3 +65,10 @@ This project does not require any special installation. You can clone the Git re
 ### Unfixed Bugs
 
 No unfixed bugs
+
+### Deployment
+
+In Github, once all files are uploaded.<br>
+You to go into settings, and inside settings, navigate to Pages and then inside Pages, change the Branch under Branch area.
+
+So, change from none, over to the main branch, which contains the root folder and all files.
