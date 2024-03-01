@@ -43,9 +43,25 @@ This project does not require any special installation. You can clone the Git re
 
 # HTML
 
--index.html: Document checking completed. No errors or warnings to show.
--book-cover.html: Document checking completed. No errors or warnings to show.
--movie-cover.html: Document checking completed. No errors or warnings to show.
+-index.html: Document checking completed. No errors or warnings to show.<br>
+-book-cover.html: Document checking completed. No errors or warnings to show.<br>
+-movie-cover.html: Document checking completed. No errors or warnings to show.<br>
+-sign.html: Document checking completed. No errors or warnings to show.<br>
+
+# CSS
+
+-book.css: Congratulations! No Error Found.<br>
+-index.css : Congratulations! No Error Found.<br>
+-sign.css: Congratulations! No Error Found.<br>
+-style.css: Congratulations! No Error Found.<br>
+
+# Accessibility
+
+
+
+
+
+
 
 
 
