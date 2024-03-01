@@ -56,7 +56,10 @@ This project does not require any special installation. You can clone the Git re
 -style.css: Congratulations! No Error Found.<br>
 
 # Accessibility
+-for desktop:<br>
 ![accessibility](accessibility.png)
+-for mobile:<br>
+![image](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/14b05a55-ab67-4efa-b0e3-cd7171de2f88)
 
 
 
