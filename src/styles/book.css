@@ -1,6 +1,7 @@
 .container {
     text-align: center;
     padding-bottom: 50px;
+    padding-bottom: 0;
 }
 
 .book {
@@ -45,8 +46,12 @@ div img {
 .book p {
     margin: 0 auto;
     width: 90%;
+    line-height: 1.5;
 }
 
+footer{
+    margin-top: 0;
+}
 @media (max-width: 768px) {
     .book img {
         margin: auto;
