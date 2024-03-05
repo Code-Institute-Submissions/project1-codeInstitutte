@@ -45,6 +45,11 @@ This project leverages the foundational web technologies:
   ![index-validator](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/ddeb6a6b-84c5-497b-b1a2-490d8b05a6e8)
 
   #### movie-cover.html:
+  ![movie-validator](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/1af70f16-574a-4cb7-b3b9-c6d7583f15ae)
+
+  #### sign.html:
+  
+
   
 
 
