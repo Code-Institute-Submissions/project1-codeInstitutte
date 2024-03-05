@@ -65,6 +65,9 @@ Currently, there are no known unfixed bugs in the project.
 
 Your site should now be live on GitHub Pages!
 
+###Browser Compatibility
+The website is fully functional and has been thoroughly tested across three major web browsers: Firefox, Microsoft Edge, and Google Chrome. During testing, it was ensured that all features operate seamlessly and the user experience remains consistent regardless of the browser choice. This cross-browser compatibility underscores our commitment to providing an accessible and reliable platform for all users, ensuring that everyone can enjoy the rich content and interactive features of "The Review" without any limitations.
+
 ## Future Enhancements
 
 - **Burger Menu**: Implementation of a burger menu for an optimized mobile navigation experience.
