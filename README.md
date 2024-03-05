@@ -74,3 +74,10 @@ The website is fully functional and has been thoroughly tested across three majo
 - **Dynamic Content**: Real-time updates for reviews, ratings, and community interactions.
 - **Inclusivity**: Further diversification of content to include a wider range of cultural works and critical perspectives.
 
+## Credits
+### Imagery
+All images used on "The Review" website are sourced from high-quality, royalty-free image providers to enhance the visual appeal and professionalism of our platform. The majority of our images are curated from Unsplash, known for its vast collection of free-to-use, high-resolution photos contributed by photographers around the globe. Additional images were carefully selected through Google's advanced image search, filtered for images labeled for reuse with modification, ensuring alignment with our site's aesthetic and thematic requirements. This careful selection process guarantees compliance with legal and ethical standards, ensuring respectful and appropriate use of the artists' works.
+
+## Acknowledgements
+- My Mentor Rahul for his ongoing support and feedback
+- The Code Institute's Tutor Support
