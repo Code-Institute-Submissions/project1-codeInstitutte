@@ -31,7 +31,8 @@ This project leverages the foundational web technologies:
 ### Installation
 - No special installation required. Simply clone the repository and open the HTML files in your web browser to explore "The Review".
 
-![Book Cover Screen Capture](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/a6f002b1-7f28-4a46-91f5-243df60febd7)
+![replace2](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/fb23799d-b7fa-45fd-934c-09f142933dee)
+
 
 ## Validator Testing
 
