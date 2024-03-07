@@ -85,6 +85,17 @@ Currently, there are no known unfixed bugs in the project.
 
 Your site should now be live on GitHub Pages!
 
+## Manual Testing User Stories
+
+| User Story | Testing |
+| --- | --- |
+| As a first-time user, I want to know what the website is about | Clicking on the "About Us" navigation link or scrolling down will take the user to the "About Us" section where they will find information about the purpose and the theme of the website. |
+| As a first-time user, I want to explore book and movie reviews | The homepage prominently features sections for both "Book Reviews" and "Movie Reviews". Clicking on either section or using the navigation bar allows users to dive into a rich collection of reviews. |
+| As a first-time user, I am interested in how I can contribute to the site | Scrolling to the "Join Us" or "Contribute" section, accessible through the navigation bar, guides users on how to submit their own reviews and become a part of the community. |
+| As a first-time user, I want to follow the site on social media | Social media links are conveniently located in the footer on every page, allowing users to connect with "The Review" on various social platforms. |
+| As a returning user, I want to sign up for the newsletter | Users can find the newsletter sign-up form in the footer or as a dedicated section titled "Stay Updated" where they can easily subscribe to receive updates. |
+| As a returning user, I am interested in attending events related to books and movies | Information about upcoming events can be found
+
 ### Browser Compatibility
 The website is fully functional and has been thoroughly tested across three major web browsers: Firefox, Microsoft Edge, and Google Chrome. During testing, it was ensured that all features operate seamlessly and the user experience remains consistent regardless of the browser choice. This cross-browser compatibility underscores our commitment to providing an accessible and reliable platform for all users, ensuring that everyone can enjoy the rich content and interactive features of "The Review" without any limitations.
 
@@ -97,6 +108,7 @@ The website is fully functional and has been thoroughly tested across three majo
 ## Credits
 ### Imagery
 All images used on "The Review" website are sourced from [Unsplash](https://unsplash.com/), Additional images were carefully selected through [Amazon](https://www.amazon.com/), [Google's advanced image search ](https://www.google.com/search?q=machine+%C3%A0+%C3%A9crire&tbm=isch&ved=2ahUKEwj0isX_ueKEAxXAoP0HHU5oA00Q2-cCegQIABAA&oq=machine+a+e&gs_lp=EgNpbWciC21hY2hpbmUgYSBlKgIIADIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHkjQTlDaCljqQ3AAeACQAQCYAacBoAH8CaoBAzcuNbgBAcgBAPgBAYoCC2d3cy13aXotaW1nqAIAwgIKEAAYgAQYigUYQ4gGAQ&sclient=img&ei=ZNvpZfTIOsDB9u8PztCN6AQ&bih=571&biw=1280), [IMDb](www.imdb.com) and [wordpress](https://wordpress.com/)
+
 
 ## Acknowledgements
 - My Mentor Rahul for his ongoing support and feedback
