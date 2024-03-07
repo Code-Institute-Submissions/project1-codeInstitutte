@@ -96,7 +96,7 @@ The website is fully functional and has been thoroughly tested across three majo
 
 ## Credits
 ### Imagery
-All images used on "The Review" website are sourced from high-quality, royalty-free image providers to enhance the visual appeal and professionalism of our platform. The majority of our images are curated from Unsplash, known for its vast collection of free-to-use, high-resolution photos contributed by photographers around the globe. Additional images were carefully selected through Amazon and Google's advanced image search, filtered for images labeled for reuse with modification, ensuring alignment with our site's aesthetic and thematic requirements. This careful selection process guarantees compliance with legal and ethical standards, ensuring respectful and appropriate use of the artists' works.
+All images used on "The Review" website are sourced from [Unsplash](https://unsplash.com/), Additional images were carefully selected through [Amazon](https://www.amazon.com/), [Google's advanced image search ](https://www.google.com/search?q=machine+%C3%A0+%C3%A9crire&tbm=isch&ved=2ahUKEwj0isX_ueKEAxXAoP0HHU5oA00Q2-cCegQIABAA&oq=machine+a+e&gs_lp=EgNpbWciC21hY2hpbmUgYSBlKgIIADIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHkjQTlDaCljqQ3AAeACQAQCYAacBoAH8CaoBAzcuNbgBAcgBAPgBAYoCC2d3cy13aXotaW1nqAIAwgIKEAAYgAQYigUYQ4gGAQ&sclient=img&ei=ZNvpZfTIOsDB9u8PztCN6AQ&bih=571&biw=1280), [IMDb](www.imdb.com) and [wordpress](https://wordpress.com/)
 
 ## Acknowledgements
 - My Mentor Rahul for his ongoing support and feedback
