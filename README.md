@@ -3,7 +3,7 @@
 ## About The Project
 "The Review" is an innovative online platform dedicated to the art of cultural criticism, with a special focus on books and movies. Our mission is to cultivate a vibrant community where enthusiasts can explore, share, and engage in discussions about their favorite cultural works. Through seamless navigation and a user-friendly design, "The Review" aims to encourage active participation and foster a sense of belonging among its members.
 
-![about-readme](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/e09f67e6-b3b8-4982-89be-a7deba4c5c69)
+![about-readme](/medias/about-us.jpg)
 
 
 ![replace](https://github.com/BadrAlioui/project1-codeInstitutte/assets/96729182/a9568a6c-39bc-488a-a777-2a9a2ae282d4)
